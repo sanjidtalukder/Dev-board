@@ -29,7 +29,7 @@
                 <div>
                     <img src="assets/checkbox.png" alt="">
                 </div>
-                <h1 class="text-[#1E1E1E] font-extrabold">24</h1>
+                <h1 id="track-mark" class="text-[#1E1E1E] font-extrabold">24</h1>
             </div>
             <div>
                 <img src="assets/theme-btn.png" alt="">
@@ -50,7 +50,7 @@
                     </div>
                     <div class="flex flex-col justify-center items-center text-center">
                         <h4 class="text-[#00303C] font-normal">Task Assigned</h4>
-                        <p class="text-[#00303C] font-extrabold">05</p>
+                        <p id="taskAssi" class="text-[#00303C] font-extrabold">05</p>
                     </div>
                 </div>
                 
@@ -78,7 +78,6 @@
             <div class="bg-gray-400 text-center p-2 ">
                 <div class="text-left m-1">
                     <button class="bg-[#FFFFFF] text-[#000000] p-1 rounded-xl text-center">ShopEase</button>
-
                 </div><br>
                 <h1 class="text-[#00303C] font-semibold">Fix Mobile Button Issue </h1><br>
                 <p class="text-[#000000] bg-[#FFFFFF] font-light rounded-xl p-1">Debug using Chrome DevTools,<br>
@@ -86,9 +85,9 @@
                      <div class="flex text-center gap-5">
                         <div>
                             <h3 class="text-[#000000] font-light">Deadline</h3>
-                            <h1 class="text-[#000000] font-medium">21 March 2025</h1>
+                            <h1 id="live-time" class="text-[#000000] font-medium">21 March 2025</h1>
                         </div>
-                        <button class="bg-blue-500 text-[#000000] p-1 rounded-xl">Completed</button>
+                        <button id="complete" class="bg-blue-500 text-[#000000] p-1 rounded-xl">Completed</button>
                      </div>
             </div>
             
@@ -105,7 +104,7 @@
                             <h3 class="text-[#000000] font-light">Deadline</h3>
                             <h1 class="text-[#000000] font-medium">21 March 2025</h1>
                         </div>
-                        <button class="bg-blue-500 text-[#000000] p-1 rounded-xl">Completed</button>
+                        <button id="cloudSync" class="bg-blue-500 text-[#000000] p-1 rounded-xl">Completed</button>
                      </div>
                
             </div>
@@ -187,7 +186,7 @@
         </div> 
     </div>
        
-    <div class="bg-gray-400 p-2 rounded-xl w-100 text-center ">
+    <div  class="bg-gray-400 p-2 rounded-xl w-100 text-center ">
         <div class="flex items-center justify-center gap-2">
             <img class="w-6 h-6" src="assets/activity.png" alt="">
             <p class="text-[#00303C] font-medium">Activity Log</p>
@@ -196,7 +195,9 @@
         <div>
             <button class="bg-[#3752FD] font-bold p-2 rounded-xl text-[#FFFFFF]">Clear History</button>
         </div><hr class=" border-dashed border-t-2 border-gray-700 my-2">
-        
+        <div id="message" class="text-[#00303C]">
+            
+        </div>
     </div>
     
          
@@ -206,6 +207,6 @@
 
    </main>
    
-    
+    <script src="style.js"></script>
 </body>
 </html>
