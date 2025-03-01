@@ -220,3 +220,9 @@ const deadlines =document.getElementById("cloudSync").addEventListener("click",f
                     }
                     })
 
+                    document.getElementById("clear-history").addEventListener("click",function(){
+                        
+                        const messages =document.getElementById("message");
+                       messages.innerHTML ="";
+                    })
+
