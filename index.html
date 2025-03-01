@@ -14,32 +14,35 @@
  
 </style>
 </head>
-<body class="bg-white mx-auto">
-   <header>
+<body class="bg-white mx-auto p-3">
+   <header class="">
     <!-- nav bar style start here -->
-    <nav class="flex justify-between bg-slate-300 m-3 p-2  mt-2 rounded-xl">
+    <nav class="flex justify-between bg-slate-200 m-3 p-1 rounded-xl">
         <div class="flex gap-1 text-center align-middle m-1">
             <div>
                 <img  src="assets/logo.png" alt="">
             </div>
             <h1 class="text-[#00303C] font-medium">Dev<span class="font-extrabold">Board</span></h1>
         </div>
-        <div class="flex gap-3">
-            <div class="flex gap-3 bg-[#F4F7FF] rounded-lg p-2">
+        <div class="flex gap-3 text-center">
+            <div class="flex gap-3 bg-[#F4F7FF] rounded-lg p-2 text-center">
                 <div>
                     <img src="assets/checkbox.png" alt="">
                 </div>
-                <h1 id="track-mark" class="text-[#1E1E1E] font-extrabold">24</h1>
+                <div>
+                    <h1 id="track-mark" class="text-[#1E1E1E] font-extrabold">24</h1>
+                </div>
+                
             </div>
-            <div>
-                <img src="assets/theme-btn.png" alt="">
+            <div id="them-color">
+                <img id="theme-btn" src="assets/theme-btn.png" alt="">
             </div> 
         </div>
     </nav></header></br>
      <!-- nav bar style end here -->
    </header>
    <main>
-    <section class=" bg-slate-300 m-3 p-2  mt-2 ">
+    <section class=" bg-slate-300 m-3 p-2  mt-2 rounded-xl ">
         <!-- Task Assigned -->
     <div class="flex  gap-2">
         <div>
@@ -87,7 +90,7 @@
                             <h3 class="text-[#000000] font-light">Deadline</h3>
                             <p id="Deadline-time" class="text-[#00303C] font-extrabold"> </p>
                         </div>
-                        <button id="complete" class="bg-blue-500 text-[#000000] p-1 rounded-xl">Completed</button>
+                        <button id="complete" class="bg-blue-500 text-[#FFFFFF] font-bold p-1 rounded-xl">Completed</button>
                      </div>
             </div>
             
@@ -104,7 +107,7 @@
                             <h3 class="text-[#000000] font-light">Deadline</h3>
                             <p id="CloudSync-time" class="text-[#00303C] font-extrabold"> </p>
                         </div>
-                        <button id="cloudSync" class="bg-blue-500 text-[#000000] p-1 rounded-xl">Completed</button>
+                        <button id="cloudSync" class="bg-blue-500 text-[#FFFFFF] p-1 font-bold rounded-xl">Completed</button>
                      </div>
                
             </div>
@@ -121,7 +124,7 @@
                             <h3 class="text-[#000000] font-light">Deadline</h3>
                             <p id="SwiftPayc-time" class="text-[#00303C] font-extrabold"> </p>
                         </div>
-                        <button id="swift-Pay" class="bg-blue-500 text-[#000000] p-1 rounded-xl">Completed</button>
+                        <button id="swift-Pay" class="bg-blue-500 text-[#FFFFFF] font-bold p-1 rounded-xl">Completed</button>
                      </div>
                
             </div>
@@ -142,7 +145,7 @@
                             <h3 class="text-[#000000] font-light">Deadline</h3>
                             <p id="Meta-time" class="text-[#00303C] font-extrabold"> </p>
                         </div>
-                        <button id="meta" class="bg-blue-500 text-[#000000] p-1 rounded-xl">Completed</button>
+                        <button id="meta" class="bg-blue-500 text-[#FFFFFF] p-1 font-bold rounded-xl">Completed</button>
                      </div>
                
             </div>
@@ -161,7 +164,7 @@
                             <h3 class="text-[#000000] font-light">Deadline</h3>
                             <p id="GoogleLLC-time" class="text-[#00303C] font-extrabold"> </p>
                         </div>
-                        <button id="google-LLC" class="bg-blue-500 text-[#000000] p-1 rounded-xl">Completed</button>
+                        <button id="google-LLC" class="bg-blue-500 text-[#FFFFFF] font-bold p-1 rounded-xl">Completed</button>
                      </div>
                
             </div>
@@ -179,7 +182,7 @@
                             <h3 class="text-[#000000] font-light">Deadline</h3>
                             <p id="Glassdoar-time" class="text-[#00303C] font-extrabold"> </p>
                         </div>
-                        <button id="glass-doar" class="bg-blue-500 text-[#000000] p-1 rounded-xl">Completed</button>
+                        <button id="glass-doar" class="bg-blue-500 text-[#FFFFFF] font-bold p-1 rounded-xl">Completed</button>
                      </div>
                
             </div>
@@ -205,9 +208,10 @@
         
     </section>
 
-   </main>
+   </main><br>
    
     <script src="style.js"></script>
     <script src="currentDate.js"></script>
+    <script src="randomColor.js"></script>
 </body>
 </html>

@@ -187,6 +187,7 @@ const deadlines =document.getElementById("cloudSync").addEventListener("click",f
 
                 const glassdoar =document.getElementById("glass-doar").addEventListener("click",function(){
                     alert("Board update Successfully");
+                    alert("Congratulation!!! You have completed all the currrent task");
                     
                     const pending = document.getElementById("taskAssi");
                     const tracjMark = document.getElementById("track-mark");
