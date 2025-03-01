@@ -1,53 +1,17 @@
 //  ShopEase button click 
- const completed= document.getElementById("complete").addEventListener("click", function() {
-    alert("Board update successfully");
-  
-    const pending = document.getElementById("taskAssi");
-    const tracjMark = document.getElementById("track-mark");
-    const button= document.getElementById("complete");
-    const messages =document.getElementById("message");
-
-    const pendingCount = parseInt(pending.textContent);
-    const tracjMarkCount = parseInt(tracjMark.textContent);
-
-    if (pendingCount > 0) {
-        pending.textContent = pendingCount - 1;
-        tracjMark.textContent = tracjMarkCount + 1;
-
-        button.disabled =true;
-        button.style.backgroundColor="gray";
-        button.style.cursore ="not-allowed";
-
-
-        let now =new Date();
-        let hours = now.getHours().toString().padStart(2,'0');
-       let minutes = now.getMinutes().toString().padStart(2,'0');
-        let secounds = now.getSeconds().toString().padStart(2,'0');
-        let amPm = hours%2 ? "PM":"AM";
-        hours = hours%12 || 12;
-      
-        const formattedTime = `${hours}:${minutes}:${secounds}`;
-        const titleSet= document.title = `Fix Mobile Button`;
-        messages.innerHTML =`You have completed the task 
-        <strong>${titleSet}</strong> issue at ${formattedTime} ${amPm}`;
-
-    }
-});
-
-// CloudSync button click here
-
-const deadlines =document.getElementById("cloudSync").addEventListener("click",function(){
+const ShopEase =document.getElementById("shop-Ease").addEventListener("click",function(){
     alert("Board update Successfully");
     
     const pending = document.getElementById("taskAssi");
     const tracjMark = document.getElementById("track-mark");
-    const button= document.getElementById("cloudSync");
+    const button= document.getElementById("shop-Ease");
     const messages =document.getElementById("message");
     
     const pendingCount = parseInt(pending.textContent);
     const tracjMarkCount = parseInt(tracjMark.textContent);
     
     if (pendingCount > 0) {
+        
         pending.textContent = pendingCount - 1;
         tracjMark.textContent = tracjMarkCount + 1;
     
@@ -67,9 +31,54 @@ const deadlines =document.getElementById("cloudSync").addEventListener("click",f
         messages.innerHTML +=`<p>You have completed the task 
        <strong>${titleSet}</strong> issue at ${formattedTime1}  </p>`;
     
+       if (pendingCount === 1) {
+        alert("Congratulation!!! You have completed all the current task"); 
+    }
     
     }
-    })
+    });
+
+
+// CloudSync button click here
+
+const deadlines =document.getElementById("cloudSync").addEventListener("click",function(){
+    alert("Board update Successfully");
+    
+    const pending = document.getElementById("taskAssi");
+    const tracjMark = document.getElementById("track-mark");
+    const button= document.getElementById("cloudSync");
+    const messages =document.getElementById("message");
+    
+    const pendingCount = parseInt(pending.textContent);
+    const tracjMarkCount = parseInt(tracjMark.textContent);
+    
+    if (pendingCount > 0) {
+        
+        pending.textContent = pendingCount - 1;
+        tracjMark.textContent = tracjMarkCount + 1;
+    
+        button.disabled =true;
+        button.style.backgroundColor="gray";
+        button.style.cursore ="not-allowed";
+    
+    
+        let now1 =new Date();
+        let hours1 = now1.getHours().toString().padStart(2,'0');
+       let minutes1 = now1.getMinutes().toString().padStart(2,'0');
+        let secounds1 = now1.getSeconds().toString().padStart(2,'0');
+        let amPm1 = hours1%2 ? "PM":"AM";
+        hours1 = hours1%12 || 12;
+        const formattedTime1 = `${hours1}:${minutes1}:${secounds1} ${amPm1}`;
+       const titleSet= document.title = `Fix Mobile Button`
+        messages.innerHTML +=`<p>You have completed the task 
+       <strong>${titleSet}</strong> issue at ${formattedTime1}  </p>`;
+    
+       if (pendingCount === 1) {
+        alert("Congratulation!!! You have completed all the current task"); 
+    }
+    
+    }
+    });
 
     //SwiftPay click here
 
@@ -92,8 +101,7 @@ const deadlines =document.getElementById("cloudSync").addEventListener("click",f
             button.disabled =true;
             button.style.backgroundColor="gray";
             button.style.cursore ="not-allowed";
-        
-        
+              
             let now1 =new Date();
             let hours1 = now1.getHours().toString().padStart(2,'0');
            let minutes1 = now1.getMinutes().toString().padStart(2,'0');
@@ -105,9 +113,11 @@ const deadlines =document.getElementById("cloudSync").addEventListener("click",f
             messages.innerHTML +=`<p>You have completed the task 
            <strong>${titleSet}</strong> issue at ${formattedTime1}  </p>`;
         
-        
+           if (pendingCount === 1) {
+            alert("Congratulation!!! You have completed all the current task"); 
+    }
         }
-        })
+        });
 
         //meta cleck here
 
@@ -140,11 +150,13 @@ const deadlines =document.getElementById("cloudSync").addEventListener("click",f
                 const formattedTime1 = `${hours1}:${minutes1}:${secounds1} ${amPm1}`;
                const titleSet= document.title = `Fix Mobile Button`
                 messages.innerHTML +=`<p>You have completed the task 
-               <strong>${titleSet}</strong> issue at ${formattedTime1}  </p>`;
+               <strong>${titleSet}</strong> issue 🤲 at ${formattedTime1}  </p>`;
             
-            
+               if (pendingCount === 1) {
+                alert("Congratulation!!! You have completed all the current task"); 
+        }
             }
-            })
+            });
 
             // Google-LLC click here
             const googlellc =document.getElementById("google-LLC").addEventListener("click",function(){
@@ -178,16 +190,17 @@ const deadlines =document.getElementById("cloudSync").addEventListener("click",f
                     messages.innerHTML +=`<p>You have completed the task 
                    <strong>${titleSet}</strong> issue at ${formattedTime1}  </p>`;
                 
-                
+                   if (pendingCount === 1) {
+                    alert("Congratulation!!! You have completed all the current task"); 
                 }
-                })
+                }
+                });
 
 
                 //Glassdoar click here
 
                 const glassdoar =document.getElementById("glass-doar").addEventListener("click",function(){
-                    alert("Board update Successfully");
-                    alert("Congratulation!!! You have completed all the currrent task");
+                    alert("Board update Successfully");                    
                     
                     const pending = document.getElementById("taskAssi");
                     const tracjMark = document.getElementById("track-mark");
@@ -217,9 +230,11 @@ const deadlines =document.getElementById("cloudSync").addEventListener("click",f
                         messages.innerHTML +=`<p>You have completed the task 
                        <strong>${titleSet}</strong> issue at ${formattedTime1}  </p>`;
                     
-                    
+                       if (pendingCount === 1) {
+                        alert("Congratulation!!! You have completed all the current task"); 
+                }
                     }
-                    })
+                    });
 
                     document.getElementById("clear-history").addEventListener("click",function(){
                         
