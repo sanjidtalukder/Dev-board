@@ -27,10 +27,10 @@ const ShopEase =document.getElementById("shop-Ease").addEventListener("click",fu
         let amPm1 = hours1%2 ? "PM":"AM";
         hours1 = hours1%12 || 12;
         const formattedTime1 = `${hours1}:${minutes1}:${secounds1} ${amPm1}`;
-       const titleSet= document.title = `Fix Mobile Button`
-        messages.innerHTML +=`<p>You have completed the task 
-       <strong>${titleSet}</strong> issue at ${formattedTime1}  </p>`;
-    
+       const titleSet= document.title = `Fix Mobile Button issue`
+       messages.innerHTML += `<p style="background-color: gray; border-radius:18px; padding: 5px;">
+       You have completed the task <strong>${titleSet}</strong>  at ${formattedTime1}
+   </p><br>`;
        if (pendingCount === 1) {
         alert("Congratulation!!! You have completed all the current task"); 
     }
@@ -69,9 +69,10 @@ const deadlines =document.getElementById("cloudSync").addEventListener("click",f
         let amPm1 = hours1%2 ? "PM":"AM";
         hours1 = hours1%12 || 12;
         const formattedTime1 = `${hours1}:${minutes1}:${secounds1} ${amPm1}`;
-       const titleSet= document.title = `Fix Mobile Button`
-        messages.innerHTML +=`<p>You have completed the task 
-       <strong>${titleSet}</strong> issue at ${formattedTime1}  </p>`;
+       const titleSet= document.title = `Add Dark Mode`
+       messages.innerHTML += `<p style="background-color: gray; border-radius:18px; padding: 5px;">
+                       You have completed the task <strong>${titleSet}</strong> at ${formattedTime1}
+                   </p><br>`;
     
        if (pendingCount === 1) {
         alert("Congratulation!!! You have completed all the current task"); 
@@ -109,9 +110,10 @@ const deadlines =document.getElementById("cloudSync").addEventListener("click",f
             let amPm1 = hours1%2 ? "PM":"AM";
             hours1 = hours1%12 || 12;
             const formattedTime1 = `${hours1}:${minutes1}:${secounds1} ${amPm1}`;
-           const titleSet= document.title = `Fix Mobile Button`
-            messages.innerHTML +=`<p>You have completed the task 
-           <strong>${titleSet}</strong> issue at ${formattedTime1}  </p>`;
+           const titleSet= document.title = `Optimize Home page`
+           messages.innerHTML += `<p style="background-color: gray; border-radius:18px; padding: 5px;">
+           You have completed the task <strong>${titleSet}</strong> at ${formattedTime1}
+       </p><br>`;
         
            if (pendingCount === 1) {
             alert("Congratulation!!! You have completed all the current task"); 
@@ -148,9 +150,10 @@ const deadlines =document.getElementById("cloudSync").addEventListener("click",f
                 let amPm1 = hours1%2 ? "PM":"AM";
                 hours1 = hours1%12 || 12;
                 const formattedTime1 = `${hours1}:${minutes1}:${secounds1} ${amPm1}`;
-               const titleSet= document.title = `Fix Mobile Button`
-                messages.innerHTML +=`<p>You have completed the task 
-               <strong>${titleSet}</strong> issue 🤲 at ${formattedTime1}  </p>`;
+               const titleSet= document.title = `Add new emoji 🤲`
+               messages.innerHTML += `<p style="background-color: gray; border-radius:18px; padding: 5px;">
+                       You have completed the task <strong>${titleSet}</strong> at ${formattedTime1}
+                   </p><br>`;
             
                if (pendingCount === 1) {
                 alert("Congratulation!!! You have completed all the current task"); 
@@ -186,9 +189,10 @@ const deadlines =document.getElementById("cloudSync").addEventListener("click",f
                     let amPm1 = hours1%2 ? "PM":"AM";
                     hours1 = hours1%12 || 12;
                     const formattedTime1 = `${hours1}:${minutes1}:${secounds1} ${amPm1}`;
-                   const titleSet= document.title = `Fix Mobile Button`
-                    messages.innerHTML +=`<p>You have completed the task 
-                   <strong>${titleSet}</strong> issue at ${formattedTime1}  </p>`;
+                   const titleSet= document.title = `Integrate OpenAI API`
+                   messages.innerHTML += `<p style="background-color: gray; padding: 5px; border-radius:18px;">
+                       You have completed the task <strong>${titleSet}</strong> at ${formattedTime1}
+                   </p><br>`;
                 
                    if (pendingCount === 1) {
                     alert("Congratulation!!! You have completed all the current task"); 
@@ -226,9 +230,10 @@ const deadlines =document.getElementById("cloudSync").addEventListener("click",f
                         let amPm1 = hours1%2 ? "PM":"AM";
                         hours1 = hours1%12 || 12;
                         const formattedTime1 = `${hours1}:${minutes1}:${secounds1} ${amPm1}`;
-                       const titleSet= document.title = `Fix Mobile Button`
-                        messages.innerHTML +=`<p>You have completed the task 
-                       <strong>${titleSet}</strong> issue at ${formattedTime1}  </p>`;
+                       const titleSet= document.title = `Improve Job searching `
+                       messages.innerHTML += `<p style="background-color: gray; border-radius:18px; padding: 5px;">
+                       You have completed the task <strong>${titleSet}</strong> at ${formattedTime1}
+                   </p><br>`;
                     
                        if (pendingCount === 1) {
                         alert("Congratulation!!! You have completed all the current task"); 
